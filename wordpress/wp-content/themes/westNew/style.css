@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*
+Theme Name :west
+Description : 株式会社ウエスト様コーポレートサイト
+Author:	hirai
+Version : ver1.0
+*/
+#wrapper {
+  background-image: url(img/main_visual@2x.jpg);
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0vw;
+  width: 100vw;
+  height: 100vh;
+  background-position: 0 50%;
+  background-size: cover;
+  position: absolute;
+}
+
+#header-wrapper #glnav a span {
+  opacity: 0;
+  position: absolute;
+  top: -28px;
+  font-size: 13px;
+  color: #4A8119;
+  width: 200px;
+  transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+}
+
+#logo {
+  float: left;
+}
+
+#glnav li {
+  float: left;
+  background: #C0D265;
+  position: relative;
+  z-index: 999;
+}
+
+.bt {
+  color: #FFFBF4;
+  background: #3C3C3B;
+}
+
+.bt a {
+  color: #FFFBF4;
+  background: #3C3C3B;
+  color: #FFFBF4;
+  background: #3C3C3B;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,382 @@
+	@charset "UTF-8";
+	/*
+	Theme Name :west
+	Description : 株式会社ウエスト様コーポレートサイト
+	Author:	hirai
+	Version : ver1.0
+	*/
+
+	body{
+		background-color: #FDE260;
+		margin: 0;
+		font-family: sans-serif;
+	}
+
+
+	.header{
+		position:absolute;
+		top:0px;
+		left:0px;
+		display:flex;
+		padding: 15px 100px 18px 100px;
+		align-items: center;
+		justify-content: space-between;
+		position: fixed;
+		width:100%;
+		z-index:100;
+		background-color:#FDE260;
+	}	
+	.header-right{
+		display:flex;
+		width: 40%;
+		height: 4rem;
+		font-size: 16px;
+		align-items: center;	
+		justify-content: space-between	;
+	}	
+	
+	h1{
+		display: inline-block;
+	}
+
+	/* .img{
+		position: relative;
+		top: 100px;
+		left: 30vw;
+	} */
+
+	.img img{
+		position: relative;
+		overflow: hidden;
+		top: 100px;
+		left: 30vw;
+	}
+
+/*お知らせ*/
+.newsWrap{
+	position:relative;
+	top: -600px;
+	margin-bottom: -600px;
+	background-color:#fff;
+	padding:20px;
+
+}
+.news{
+	display:flex;
+	justify-content:center;
+	margin: 55px auto 57px;
+	
+}
+.newsH{
+	margin-left: 54px;
+}
+.newsT img{
+	width:auto;
+	height:26px;
+}
+.newsC{
+	display:flex;
+	width: 100%;
+    margin-bottom: 40px;
+	
+}
+.newsCB1{
+	margin-left: 37px;
+    margin-top: 0;
+    font-weight: 700;
+}
+.newsCB2{
+    margin-left: 39px;
+    margin-top: 14px;
+}
+
+
+
+/*サブレ*/
+.sabure{
+	padding:105px 0 75px;
+
+}
+.sabureCon{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+}
+.sabureBtn{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin: 0 auto;
+	height: 70px;
+	width: 350px;
+	/* padding : 20px; */
+}
+.sabureBtn img{
+	border: 2px solid #000;
+	/* height: 17px; */
+
+	margin:20px;
+}
+
+.sabure1{
+	width: 386px;
+    margin-right: 40px;
+    margin-bottom: 0;
+}
+.sabure2{
+    width: 244px;
+    margin-right: 100px;
+    margin-top: 0;
+	height:174px
+}
+.sabure3{
+    height: auto;
+    margin-top: 0;
+    margin-right: 0;
+    width: 218px;
+}
+
+/*サブレ画像*/
+.okasi{
+	display:flex;
+	width:100%;
+	/* height: 200px; */
+	/* margin:20px; */
+	
+}
+.okasileft{
+	
+	display:flex;
+	flex-wrap: nowrap;
+	
+}
+.okashiImg img{
+	/* height:264px; */
+	width:100%;
+}
+
+
+
+/*商品*/
+
+.item{
+	background-color:#FFF;
+	/* display:flex;
+	flex-flow:column;
+	align-items: center;	
+	justify-content: space-between;
+	text-align: center; */
+}
+.imgItem{
+	align-items: center;	
+	
+	display:flex;
+	
+	margin-left:500px;
+	text-align: center;
+	
+}
+
+.imgItem img{
+	display:block;
+	/* text-align: center; */
+	height:auto;
+	
+	/* width: 30%; */
+}
+.con{
+	/* margin:50px; */
+	display: flex;
+	justify-content:center;
+	/* width:50%;	 */
+}
+.con li{
+	/* height:auto */
+	margin:20px;
+	text-align: center;
+
+} 
+.conImg img{
+	
+	/* height:auto;
+	width: 50%; */
+	height:404px;
+	width:310px;
+
+
+	text-align: center;
+	
+}
+
+/*お年玉*/
+
+.otoshi{
+	
+	overflow:hidden;
+	height: 522px;
+}
+.otoshiInner{
+	
+	background-color:#fff;
+}
+
+
+.dama{
+	display:flex;
+}
+.dama li{
+		width: 290px;
+		height: 290px;
+}
+
+
+.dama li:after{
+
+    background-size: auto 100%;
+	content: "";
+    display: block;
+	background: url(img/otoshi.png) no-repeat 0 0;
+    background-size: auto 100%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*カルタ*/
+.calender{
+	display:flex;
+	justify-content: space-between;
+	padding:150px;
+}
+.cal-12{
+	display:flex;
+	flex-flow: column;
+}
+.cal-4{
+	display:flex;
+}
+.cal-4 img{
+	display:flex;
+	width: 135px;
+	height: auto;
+}
+.cal-text{
+	display:flex;
+	flex-flow:column;
+	align-items: center;
+	justify-content:center;
+}
+
+.cal-text img:first-child{
+	margin:50px;
+}
+.cal-text img:last-child{
+	margin:50px;
+}
+
+
+
+
+
+
+
+
+
+
+/*ショップ*/
+.shop{
+	background-color:#FFF;
+
+}
+
+.shop-text-top{
+	padding:40px;
+	text-align:center;
+
+}
+
+
+.shop-text P,.shop-text img{
+	padding:10px;
+	text-align:center;
+}
+.shop-img-text{
+	text-align:center;
+}
+.shop-img-bottom{
+	padding:40px;
+	text-align:center;
+	
+}
+
+
+
+
+/*フッター*/
+.in-footer{
+	display: flex;
+	justify-content: space-between;
+	padding-bottom:20px;
+}
+.about{
+	display:flex;
+	align-items:center;	
+	
+	flex-direction: column;
+
+
+}
+.link{
+	display:flex;
+	margin: 0px 50px;
+
+
+
+}
+.sns{
+	display:flex;
+	justify-content: space-between;
+	
+}
+.sns img{
+	width:40px;
+
+}
+.link-left ul{
+	display:flex;
+	text-align: left;	
+	flex-flow: column;
+	margin: 0px 50px;
+	justify-content: space-between;
+	height: 200px;
+	
+}
+
+.link-right ul{
+	display:flex;
+	text-align: left;	
+	flex-flow: column;
+	margin: 0px 50px;
+	height: 200px;
+	justify-content: space-between;
+}
+
+.con-menu{
+	padding:20px 20px;
+	display:flex;
+	justify-content:center;
+}
+.list-menu{
+	display:flex;
+	justify-content:space-between;
+	width:60%;
+
+}
+
+
+/* .link-right ul{
+	padding-bottom: 20px;
+
+} */

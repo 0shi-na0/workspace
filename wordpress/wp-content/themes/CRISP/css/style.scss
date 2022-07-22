@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/*
+Theme Name :west
+Description : 株式会社ウエスト様コーポレートサイト
+Author:	hirai
+Version : ver1.0
+*/
+
+body{
+    background-color: #FFFBF4;
+}
+
+#wrapper{
+    #header-wrapper{
+        display: flex;
+        justify-content: space-between;
+        .leftmenu{
+            display: flex;
+            justify-content: left;
+        }
+        
+        
+    }
+}
+
+main{
+    .description{
+        p{
+            padding: 0px 20vw;
+            margin: 0 auto;
+        }
+    }
+    .saradasec{
+        div{
+            width: 100%;
+            height: auto;
+            // background-size: cover;
+            img{
+                // display: block;
+                width: 100%;
+                height: auto;
+            }
+
+        }
+    }
+    .secMission{
+        .textH2{
+            .textH2child{
+                text-align: left;
+            }
+        }
+        h2{
+            text-align: left;
+        }
+        p{
+            text-align: left;
+
+        }
+        .btnRight{
+            span{
+                text    -align: right;
+
+            }
+        }
+
+    }
+}
+
